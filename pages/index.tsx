@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.scss";
 const Home: NextPage = () => {
   return (
     <>
-      <Head />
+      <Head title={"Unrugged"} />
       <div className={styles.container}></div>
     </>
   );
