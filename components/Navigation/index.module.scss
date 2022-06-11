@@ -1,0 +1,22 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply bg-dark font-main text-light flex justify-between items-center pt-[26px] pb-4x5 px-4x6;
+  }
+
+  .unrugged {
+    @apply font-bold text-[16px] leading-3x8 text-center;
+  }
+
+  .center {
+    @apply flex items-center justify-center gap-5x9;
+  }
+
+  .link {
+    @apply font-medium text-[12px] leading-3x6;
+  }
+
+  .launch {
+    @apply font-bold text-[16px] leading-3x8;
+  }
+}
