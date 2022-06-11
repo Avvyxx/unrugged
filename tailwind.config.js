@@ -11,6 +11,18 @@ module.exports = {
       trans: "transparent",
 
       //Project Colors
+      dark: "#171717",
+      light: "#FFFFFA",
+      lowOp: "rgba(23, 23, 23, 0.64)",
+      green: "#31C324",
+      yellow: "#C39724",
+      red: "#C32424",
+      greenGrad:
+        "linear-gradient(90.42deg, rgba(49, 195, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%), #DDDDD8",
+      yellowGrad:
+        "linear-gradient(90.42deg, rgba(195, 151, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%), #DDDDD8",
+      redGrad:
+        "linear-gradient(90.42deg, rgba(195, 36, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%), #DDDDD8;",
     },
     fontFamily: {},
     extend: {
