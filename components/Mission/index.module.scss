@@ -1,0 +1,38 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply flex justify-center mt-[191px];
+  }
+
+  .center {
+    @apply max-w-[1291px] flex justify-between w-full gap-[37px];
+  }
+
+  .button {
+    @apply leading-3x8 text-light font-medium text-[20.86px] tracking-[-0.02em] bg-dark rounded-xl mt-3x14 pt-3x8 pb-[23px] px-[17px];
+  }
+
+  .purpose {
+    @apply text-lowOp text-[16px] leading-3x8 tracking-[-0.02em] font-normal max-w-[1000px] text-left mt-3x8;
+  }
+
+  .starter {
+    @apply font-medium;
+  }
+
+  .header {
+    @apply text-dark italic text-[64px] leading-4x18;
+  }
+
+  .bold {
+    @apply font-bold not-italic;
+  }
+
+  .placeholders {
+    @apply flex gap-[17px];
+  }
+
+  .placeholder {
+    @apply w-[355px] h-[615px] bg-placeholder rounded-[10.43px];
+  }
+}
