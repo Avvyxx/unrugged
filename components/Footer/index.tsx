@@ -10,7 +10,7 @@ const Footer = () => {
         <br />
         <span className={clsx(styles.emphasis, styles.bold)}>CLAIM</span> YOUR
         <br />
-        <b>UNRUGGEDDAO</b>
+        <b>UNRUGGED DAO</b>
       </h2>
       <div className={styles.buttons}>
         <button className={styles.button} type={"button"}>

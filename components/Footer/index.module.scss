@@ -1,11 +1,12 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply font-main pt-5x19;
+    @apply font-main pt-4x16 pb-4x6;
+    margin-top: auto;
   }
 
   .victim {
-    @apply font-normal text-light text-[100px] leading-5x18 tracking-[-0.01em] text-center;
+    @apply px-5x5 font-normal text-light tracking-[-0.01em] text-center text-[60px] leading-3x20;
   }
 
   .emphasis {
@@ -17,18 +18,52 @@
   }
 
   .buttons {
-    @apply flex items-center gap-3x18 justify-center mb-[104px] mt-[38px];
+    @apply flex flex-col items-center gap-4x4 justify-center mb-[128px] mt-4x8;
   }
 
   .button {
-    @apply bg-light rounded-[12.61px] text-dark text-[25.21px] leading-[37.82px] tracking-[-0.02em] font-medium py-4x5 px-[70.1px];
+    @apply bg-light rounded-xl text-dark text-[18px] leading-3x9 tracking-[-0.02em] font-medium py-4x4 px-[57.5px];
   }
 
   .discord {
-    @apply block text-light font-medium text-[25.21px] leading-[37.82px] tracking-[-0.02em] underline;
+    @apply block text-light font-medium text-[18px] leading-3x9 tracking-[-0.02em] underline;
   }
 
   .credit {
-    @apply font-medium text-[12px] leading-3x6 text-light opacity-[0.64] mt-[2px] text-center;
+    @apply font-medium text-[12px] leading-3x6 text-light opacity-[0.64] mt-5x1 text-center;
+  }
+}
+
+/* ------------------------------ Screen: 834px ----------------------------- */
+@media screen and (min-width: 834px) {
+  .container {
+    @apply pt-5x19 pb-[38px];
+  }
+
+  .victim {
+    @apply text-[100px] leading-5x18 p-0;
+  }
+
+  .buttons {
+    @apply flex-row gap-4x8 mb-[100px] mt-3x16;
+  }
+
+  .credit {
+    @apply mt-3x4;
+  }
+}
+
+/* ----------------------------- Screen: 1920px ----------------------------- */
+@media screen and (min-width: 1920px) {
+  .container {
+    @apply pb-5x6;
+  }
+
+  .buttons {
+    @apply mb-[98px];
+  }
+
+  .credit {
+    @apply mt-5x2;
   }
 }
