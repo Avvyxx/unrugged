@@ -1,7 +1,7 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply flex flex-col items-center mt-5x19 font-main;
+    @apply flex flex-col items-center mt-5x19 font-main px-5x5;
   }
 
   .button {
@@ -33,7 +33,7 @@
   }
 
   .blankForNow {
-    @apply bg-placeholder w-[1303px] h-[615px] rounded-[10.43px] mt-5x11;
+    @apply bg-placeholder w-full h-[615px] rounded-[10.5px] mt-4x8 max-w-[1345px];
   }
 }
 
@@ -43,12 +43,24 @@
     @apply mt-[128px];
   }
 
+  .button {
+    @apply text-[21px] leading-[31px] p-[17px];
+  }
+
   .question {
     @apply text-[64px] leading-4x16;
   }
 
   .purpose {
     @apply text-[16px] leading-4x6 max-w-[780px];
+  }
+
+  .link {
+    @apply text-[21px] leading-[31px];
+  }
+
+  .blankForNow {
+    @apply mt-4x16;
   }
 }
 
@@ -60,5 +72,13 @@
 
   .purpose {
     @apply max-w-[1000px];
+  }
+
+  .button {
+    @apply text-[18px] leading-3x9;
+  }
+
+  .link {
+    @apply text-[18px] leading-3x9;
   }
 }
