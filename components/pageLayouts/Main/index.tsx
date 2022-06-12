@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Footer from "../../Footer";
 import Head from "../../Head";
 import Navigation from "../../Navigation";
 import styles from "./index.module.scss";
@@ -13,6 +14,7 @@ const Main: FC = ({ children }) => {
         <main className={styles.main}>
           {children}
         </main>
+        <Footer/>
       </div>
     </>
   );

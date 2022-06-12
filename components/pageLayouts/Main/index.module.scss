@@ -1,6 +1,15 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
+  .container {
+    @apply bg-dark px-5x1 font-main;
+  }
+
   .main {
-    @apply bg-dark px-5x1;
+    @apply bg-light rounded-xl font-main pt-[111px] pb-[121px] overflow-auto;
+    max-height: calc(100vh - 86px);
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      @apply hidden;
+    }
   }
 }

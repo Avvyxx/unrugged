@@ -7,7 +7,7 @@ import styles from "./index.module.scss";
 const Landing = () => {
   // prettier-ignore
   return (
-    <section className={styles.container}>
+    <>
       <h1 className={styles.goal}>
         <b className={styles.notItalicized}>UNRUGGED</b> IS THE
         <br />
@@ -15,11 +15,11 @@ const Landing = () => {
         <br />
         <b className={styles.notItalicized}>RECOVERY <em>PROTOCOL</em></b>
       </h1>
-      <Address/>
-      <Data/>
-      <Information/>
-      <Mission/>
-    </section>
+      <Address />
+      <Data />
+      <Information />
+      <Mission />
+    </>
   );
 };
 
