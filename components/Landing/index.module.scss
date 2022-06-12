@@ -1,0 +1,14 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply bg-light rounded-xl font-main pt-[111px];
+  }
+
+  .goal {
+    @apply text-[120px] text-center leading-[115.14px] italic tracking-[-4.1px] select-none;
+
+    .notItalicized {
+      @apply not-italic;
+    }
+  }
+}
