@@ -24,7 +24,7 @@
 /* ------------------------------ Screem: 834px ----------------------------- */
 @media screen and (min-width: 834px) {
   .container {
-    @apply h-[172px] mt-[96px];
+    @apply h-[116px] mt-[96px];
   }
 
   .center {
@@ -43,7 +43,7 @@
 /* ----------------------------- Screen: 1920px ----------------------------- */
 @media screen and (min-width: 1920px) {
   .container {
-    @apply mt-[106px];
+    @apply mt-[106px] h-[140px];
   }
 
   .center {
