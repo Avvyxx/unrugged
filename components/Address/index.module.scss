@@ -1,11 +1,11 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply flex flex-col items-center mt-5x18 font-main;
+    @apply flex flex-col items-center mt-5x18 font-main px-5x5;
   }
 
   .top {
-    @apply font-medium text-[14px] leading-3x7 text-lowOp tracking-[-0.02em];
+    @apply whitespace-nowrap font-medium text-[14px] leading-3x7 text-lowOp tracking-[-0.02em];
   }
 
   .bottom {
@@ -13,11 +13,11 @@
   }
 
   .inputCon {
-    @apply bg-offWhite rounded-xl pt-3x2 pb-4x1 w-full max-w-[900px] flex pl-[26px] pr-5x1 mt-[7px] mb-4x7;
+    @apply bg-trans flex flex-col gap-4x1 rounded-xl w-full max-w-[900px] flex mt-[7px] mb-4x7;
   }
 
   .input {
-    @apply w-full outline-none bg-trans font-medium text-dark leading-3x7 caret-dark;
+    @apply w-full outline-none bg-offWhite h-5x10 font-medium text-dark leading-3x7 pt-[14px] pb-3x5 rounded-xl caret-dark pl-3x4;
 
     &::placeholder {
       @apply font-medium text-lowOp leading-3x7;
@@ -25,6 +25,25 @@
   }
 
   .button {
-    @apply whitespace-nowrap bg-dark rounded-lg text-light font-medium text-[16px] tracking-[-0.02em] py-[13px] px-[22.3585px];
+    @apply whitespace-nowrap bg-dark rounded-lg text-light font-medium text-[16px] leading-4x6 tracking-[-0.02em] py-[13px] text-center;
   }
+}
+
+/* ------------------------------ Screen: 834px ----------------------------- */
+@media screen and (min-width: 834px) {
+  .inputCon {
+    @apply flex-row bg-offWhite items-center py-5x1 pl-4x6;
+  }
+
+  .input {
+    @apply bg-trans h-full p-0;
+  }
+
+  .button {
+    @apply py-[13px] px-[22.5px];
+  }
+}
+
+/* ----------------------------- Screen: 1920px ----------------------------- */
+@media screen and (min-width: 1920px) {
 }
