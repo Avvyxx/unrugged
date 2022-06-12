@@ -1,0 +1,38 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply flex flex-col items-center mt-[157px];
+  }
+
+  .button {
+    @apply bg-dark p-[17px] leading-[31.28px] text-[20.86px] tracking-[-0.02em] font-medium rounded-xl text-light;
+  }
+
+  .question {
+    @apply text-dark text-[64px] leading-4x18 tracking-[-0.01em] text-center select-none;
+  }
+
+  .italicized {
+    @apply italic;
+  }
+
+  .purpose {
+    @apply text-lowOp text-[16px] leading-3x8 tracking-[-0.02em] font-normal text-center max-w-[1000px] mt-5x6;
+  }
+
+  .starter {
+    @apply font-medium;
+  }
+
+  .whitepaper {
+    @apply flex items-center justify-center gap-5x6 mt-4x11;
+  }
+
+  .link {
+    @apply text-[20.86px] font-medium leading-[31.28px] text-dark tracking-[-0.02em] underline;
+  }
+
+  .blankForNow {
+    @apply bg-placeholder w-[1303px] h-[615px] rounded-[10.43px] mt-5x11;
+  }
+}
