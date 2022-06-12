@@ -3,6 +3,7 @@ import Navigation from "../Navigation";
 import styles from "./index.module.scss";
 
 const Footer = () => {
+  // prettier-ignore
   return (
     <footer className={styles.container}>
       <h2 className={styles.victim}>
@@ -13,7 +14,10 @@ const Footer = () => {
         <b>UNRUGGED DAO</b>
       </h2>
       <div className={styles.buttons}>
-        <button className={styles.button} type={"button"}>
+        <button 
+          className={styles.button} 
+          type={"button"}
+        >
           CLAIM YOURS
         </button>
         <a className={styles.discord}>Join our Discord</a>
