@@ -1,7 +1,7 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .goal {
-    @apply text-center italic select-none font-main tracking-[-0.03em]  text-[60px] leading-[60px];
+    @apply text-center italic select-none font-main tracking-[-0.03em] mt-4x16 text-[60px] leading-[60px];
 
     .notItalicized {
       @apply not-italic;
@@ -19,6 +19,6 @@
 /* ----------------------------- Screen: 1920px ----------------------------- */
 @media screen and (min-width: 1920px) {
   .goal {
-    @apply text-[120px] leading-[120px];
+    @apply text-[120px] leading-[120px] mt-5x19;
   }
 }
