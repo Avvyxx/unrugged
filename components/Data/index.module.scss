@@ -1,0 +1,22 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply flex justify-center w-full mt-[104px] h-[172px] select-none;
+  }
+
+  .center {
+    @apply max-w-[1291px] flex justify-between w-full;
+  }
+
+  .datum {
+    @apply flex flex-col gap-4x1 items-center relative;
+  }
+
+  .legend {
+    @apply font-medium text-[26.04px] leading-[36.46px] tracking-[-0.02em] text-lowOp;
+  }
+
+  .number {
+    @apply font-bold text-[112px] leading-[130.22px] text-dark tracking-[-0.01em] absolute top-[41px];
+  }
+}
