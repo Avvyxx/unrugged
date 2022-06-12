@@ -23,9 +23,12 @@ module.exports = {
         "linear-gradient(90.42deg, rgba(195, 151, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%), #DDDDD8",
       redGrad:
         "linear-gradient(90.42deg, rgba(195, 36, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%), #DDDDD8;",
+      offWhite: "#E8E8E3",
+      placeholder: "#D9D9D9",
     },
     fontFamily: {
       main: "Poppins, sans-serif",
+      ubuntu: "Ubuntu, sans-seriff",
     },
     extend: {
       spacing: {
