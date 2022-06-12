@@ -1,19 +1,19 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply flex justify-center mt-[191px] font-main;
+    @apply flex justify-center mt-[96px] font-main px-5x5 mb-[128px];
   }
 
   .center {
-    @apply max-w-[1291px] flex justify-between w-full gap-[37px];
+    @apply max-w-[1291px] flex flex-col justify-between w-full gap-4x8;
   }
 
   .button {
-    @apply leading-3x8 text-light font-medium text-[20.86px] tracking-[-0.02em] bg-dark rounded-xl mt-3x14 pt-3x8 pb-[23px] px-[17px];
+    @apply text-light font-medium self-start tracking-[-0.02em] bg-dark rounded-lg mt-3x8 text-[12px] leading-3x6 py-3x4 px-[19px];
   }
 
   .purpose {
-    @apply text-lowOp text-[16px] leading-3x8 tracking-[-0.02em] font-normal max-w-[1000px] text-left mt-3x8;
+    @apply text-lowOp tracking-[-0.02em] text-[12px] leading-4x5 font-normal text-center mt-4x4;
   }
 
   .starter {
@@ -21,7 +21,7 @@
   }
 
   .header {
-    @apply text-dark italic text-[64px] leading-4x18;
+    @apply text-dark italic text-[40px] leading-4x10 text-center;
   }
 
   .bold {
@@ -29,10 +29,68 @@
   }
 
   .placeholders {
-    @apply flex gap-[17px];
+    @apply flex flex-col gap-4x4;
   }
 
   .placeholder {
-    @apply w-[355px] h-[615px] bg-placeholder rounded-[10.43px];
+    @apply w-full h-[236px] bg-placeholder rounded-[10.43px];
+  }
+
+  .left {
+    @apply flex flex-col items-center;
+  }
+}
+
+/* ------------------------------ Screen: 834px ----------------------------- */
+@media screen and (min-width: 834px) {
+  .container {
+    @apply mb-[120px];
+  }
+
+  .center {
+    @apply flex-row;
+  }
+
+  .purpose {
+    @apply text-[16px] leading-4x6 max-w-[780px] text-left;
+  }
+
+  .header {
+    @apply text-[64px] leading-4x16 text-left;
+  }
+
+  .placeholders {
+    @apply gap-4x2;
+  }
+
+  .placeholder {
+    @apply w-[365px] h-[316px] bg-placeholder rounded-[10.43px];
+  }
+
+  .left {
+    @apply items-start;
+  }
+
+  .button {
+    @apply text-[18px] leading-[20.86px] py-3x7 px-4x8 mt-4x8;
+  }
+}
+
+/* ----------------------------- Screen: 1920px ----------------------------- */
+@media screen and (min-width: 1920px) {
+  .container {
+    @apply mb-[164px];
+  }
+
+  .purpose {
+    @apply max-w-[1000px];
+  }
+
+  .placeholders {
+    @apply flex-row gap-3x6;
+  }
+
+  .placeholder {
+    @apply w-[365px] h-[632px];
   }
 }
