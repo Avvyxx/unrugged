@@ -1,7 +1,7 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply flex justify-center w-full mt-[104px] h-[172px] select-none;
+    @apply flex justify-center w-full mt-[104px] h-[172px] select-none font-main;
   }
 
   .center {

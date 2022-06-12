@@ -1,7 +1,7 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply flex justify-center mt-[191px];
+    @apply flex justify-center mt-[191px] font-main;
   }
 
   .center {

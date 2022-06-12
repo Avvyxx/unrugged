@@ -1,7 +1,7 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply flex flex-col items-center mt-5x18;
+    @apply flex flex-col items-center mt-5x18 font-main;
   }
 
   .top {
