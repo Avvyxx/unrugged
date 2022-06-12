@@ -1,11 +1,11 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply flex justify-center w-full mt-[104px] h-[172px] select-none font-main;
+    @apply flex justify-center w-full mt-[88px] select-none font-main;
   }
 
   .center {
-    @apply max-w-[1291px] flex justify-between w-full;
+    @apply max-w-[1291px] flex flex-col gap-4x8 justify-between w-full;
   }
 
   .datum {
@@ -13,10 +13,48 @@
   }
 
   .legend {
-    @apply font-medium text-[26.04px] leading-[36.46px] tracking-[-0.02em] text-lowOp;
+    @apply font-medium text-[20px] leading-[28.07px] tracking-[-0.02em] text-lowOp;
   }
 
   .number {
-    @apply font-bold text-[112px] leading-[130.22px] text-dark tracking-[-0.01em] absolute top-[41px];
+    @apply font-bold text-[80px] leading-[100px] text-dark tracking-[-0.01em] top-[41px];
+  }
+}
+
+/* ------------------------------ Screem: 834px ----------------------------- */
+@media screen and (min-width: 834px) {
+  .container {
+    @apply h-[172px] mt-[96px];
+  }
+
+  .center {
+    @apply flex-row justify-center gap-[149px];
+  }
+
+  .legend {
+    @apply text-[18px] leading-4x5;
+  }
+
+  .number {
+    @apply absolute leading-4x20;
+  }
+}
+
+/* ----------------------------- Screen: 1920px ----------------------------- */
+@media screen and (min-width: 1920px) {
+  .container {
+    @apply mt-[106px];
+  }
+
+  .center {
+    @apply justify-between;
+  }
+
+  .legend {
+    @apply text-[20px];
+  }
+
+  .number {
+    @apply text-[120px] leading-[100px];
   }
 }
