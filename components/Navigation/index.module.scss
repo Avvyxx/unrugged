@@ -1,7 +1,7 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply bg-dark font-main text-light flex justify-between items-center pt-[26px] pb-4x5 px-4x6;
+    @apply bg-dark font-main text-light flex flex-col justify-between items-center pt-[26px] pb-4x5 px-4x6;
   }
 
   .unrugged {
@@ -9,7 +9,7 @@
   }
 
   .center {
-    @apply flex items-center justify-center gap-5x9;
+    @apply flex items-center justify-between gap-5x9 w-full;
   }
 
   .link {
@@ -18,5 +18,31 @@
 
   .launch {
     @apply font-bold text-[16px] leading-3x8;
+  }
+
+  .mobile {
+    @apply hidden;
+  }
+
+  .mobileMain {
+    @apply flex items-center justify-between w-full mb-[14px];
+  }
+}
+
+@media screen and (min-width: 834px) {
+  .container {
+    @apply flex-row;
+  }
+
+  .center {
+    @apply w-fit justify-center;
+  }
+
+  .mobileMain {
+    @apply hidden;
+  }
+
+  .mobile {
+    @apply block;
   }
 }
