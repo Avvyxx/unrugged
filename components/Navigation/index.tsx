@@ -1,14 +1,21 @@
 import Link from "next/link";
 import styles from "./index.module.scss";
 
-// prettier-ignore
 const Navigation = () => {
+  // prettier-ignore
   return (
     <nav className={styles.container}>
-      <h3 className={styles.unrugged}>UNRUGGED</h3>
+      <Link 
+        href={"/"} 
+        passHref
+      >
+        <a>
+          <h3 className={styles.unrugged}>UNRUGGED</h3>
+        </a>
+      </Link>
       <div className={styles.center}>
         <Link 
-          href={"/about"}
+          href={"/about"} 
           passHref
         >
           <a className={styles.link}>ABOUT US</a>
@@ -26,7 +33,12 @@ const Navigation = () => {
           <a className={styles.link}>CLAIM DAO</a>
         </Link>
       </div>
-      <p className={styles.launch}>Launch app</p>
+      <Link 
+        href={"scanner"} 
+        passHref
+      >
+        <a className={styles.launch}>Launch app</a>
+      </Link>
     </nav>
   );
 };

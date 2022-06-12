@@ -13,12 +13,12 @@ const Address = () => {
           type={"text"}
           placeholder={"Token Address"}
         />
-        <button 
-          className={styles.button} 
-          type={"button"}
+        <Link 
+          href={"/scanner"} 
+          passHref
         >
-          Token Scanner
-        </button>
+          <a className={styles.button}>Token Scanner</a>
+        </Link>
       </div>
       <p className={styles.bottom}>Claim your UnruggedDAO</p>
     </div>
