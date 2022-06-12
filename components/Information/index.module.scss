@@ -1,15 +1,15 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply flex flex-col items-center mt-[157px] font-main;
+    @apply flex flex-col items-center mt-5x19 font-main;
   }
 
   .button {
-    @apply bg-dark p-[17px] leading-[31.28px] text-[20.86px] tracking-[-0.02em] font-medium rounded-xl text-light;
+    @apply bg-dark tracking-[-0.02em] font-medium rounded-lg text-light whitespace-nowrap text-[12px] leading-3x6 py-3x4 px-[19px];
   }
 
   .question {
-    @apply text-dark text-[64px] leading-4x18 tracking-[-0.01em] text-center select-none;
+    @apply text-dark text-[40px] leading-4x10 tracking-[-0.01em] text-center select-none;
   }
 
   .italicized {
@@ -17,7 +17,7 @@
   }
 
   .purpose {
-    @apply text-lowOp text-[16px] leading-3x8 tracking-[-0.02em] font-normal text-center max-w-[1000px] mt-5x6;
+    @apply text-lowOp tracking-[-0.02em] text-[12px] leading-4x5 font-normal text-center max-w-[340px] mt-4x4;
   }
 
   .starter {
@@ -25,14 +25,40 @@
   }
 
   .whitepaper {
-    @apply flex items-center justify-center gap-5x6 mt-4x11;
+    @apply flex items-center justify-center gap-[25.5px] mt-4x6;
   }
 
   .link {
-    @apply text-[20.86px] font-medium leading-[31.28px] text-dark tracking-[-0.02em] underline;
+    @apply font-medium text-dark tracking-[-0.02em] underline text-[12px] leading-3x6;
   }
 
   .blankForNow {
     @apply bg-placeholder w-[1303px] h-[615px] rounded-[10.43px] mt-5x11;
+  }
+}
+
+/* ------------------------------ Screen: 834px ----------------------------- */
+@media screen and (min-width: 834px) {
+  .container {
+    @apply mt-[128px];
+  }
+
+  .question {
+    @apply text-[64px] leading-4x16;
+  }
+
+  .purpose {
+    @apply text-[16px] leading-4x6 max-w-[780px];
+  }
+}
+
+/* ----------------------------- Screen: 1920px ----------------------------- */
+@media screen and (min-width: 1920px) {
+  .container {
+    @apply mt-[164px];
+  }
+
+  .purpose {
+    @apply max-w-[1000px];
   }
 }
