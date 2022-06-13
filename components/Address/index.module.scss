@@ -4,6 +4,10 @@
     @apply flex flex-col items-center mt-5x18 font-main px-5x5;
   }
 
+  .diff {
+    @apply mt-4x8;
+  }
+
   .top {
     @apply whitespace-nowrap font-medium text-[14px] leading-3x7 text-lowOp tracking-[-0.02em];
   }
@@ -17,7 +21,7 @@
   }
 
   .inputCon {
-    @apply bg-trans flex flex-col gap-4x1 rounded-xl w-full max-w-[900px] flex mt-[7px] mb-4x7;
+    @apply bg-trans flex flex-col gap-4x1 rounded-xl w-full max-w-[900px] flex mt-4x2 mb-4x7;
   }
 
   .input {
@@ -35,10 +39,34 @@
       @apply text-lightLowOp;
     }
   }
+
+  .now {
+    @apply hidden;
+  }
+
+  .show {
+    @apply block;
+  }
+
+  .connect {
+    @apply flex justify-center w-full max-w-[900px];
+  }
+
+  .now {
+    @apply font-medium text-dark text-[14px] leading-4x4 tracking-[-0.02em] cursor-pointer underline;
+
+    &:hover {
+      @apply text-lowOp;
+    }
+  }
 }
 
 /* ------------------------------ Screen: 834px ----------------------------- */
 @media screen and (min-width: 834px) {
+  .diff {
+    @apply mt-4x16;
+  }
+
   .inputCon {
     @apply flex-row bg-offWhite items-center py-5x1 pl-4x6;
   }
@@ -50,8 +78,23 @@
   .button {
     @apply py-[13px] px-[22.5px];
   }
+
+  .now {
+    @apply block;
+  }
+
+  .connect {
+    @apply justify-between;
+  }
+
+  .show {
+    @apply hidden;
+  }
 }
 
 /* ----------------------------- Screen: 1920px ----------------------------- */
 @media screen and (min-width: 1920px) {
+  .diff {
+    @apply mt-5x11;
+  }
 }
