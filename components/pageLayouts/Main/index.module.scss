@@ -5,7 +5,7 @@
   }
 
   .main {
-    @apply bg-light rounded-xl font-main overflow-auto h-screen;
+    @apply bg-light rounded-[36px] font-main overflow-auto h-screen;
     max-height: calc(100vh - 118px);
     scrollbar-width: none;
 
