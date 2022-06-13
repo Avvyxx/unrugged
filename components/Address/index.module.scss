@@ -9,7 +9,11 @@
   }
 
   .bottom {
-    @apply text-dark font-ubuntu text-[16px] leading-[18.38px] font-medium underline tracking-[-0.02em];
+    @apply text-dark font-ubuntu cursor-pointer text-[16px] leading-[18.38px] font-medium underline tracking-[-0.02em];
+
+    &:hover {
+      @apply text-lowOp;
+    }
   }
 
   .inputCon {
@@ -26,6 +30,10 @@
 
   .button {
     @apply whitespace-nowrap bg-dark rounded-lg text-light font-medium text-[16px] leading-4x6 tracking-[-0.02em] py-[13px] text-center;
+
+    &:hover {
+      @apply text-lightLowOp;
+    }
   }
 }
 
