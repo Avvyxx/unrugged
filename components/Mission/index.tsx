@@ -12,8 +12,8 @@ const Mission = () => {
             <span className={styles.bold}>MISSION</span>
           </h2>
           <p className={styles.purpose}>
-            <b className={styles.starter}>UnruggedDAO&apos;s purpose is simple:</b>{" "}
-            to help victims to some of the biggest cryptocurrency rug-pulls to
+            <b className={styles.starter}>UnruggedDAO&apos;s purpose is simple:</b> to 
+            help victims to some of the biggest cryptocurrency rug-pulls to
             get some of their hard earned cash back. We aim to become pioneers
             un rug detection and prevention on Ethereum and compatible networks.
           </p>
