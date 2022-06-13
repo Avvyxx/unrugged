@@ -15,6 +15,30 @@
   .hold {
     @apply flex justify-center;
   }
+
+  .container {
+    @apply flex flex-col items-center mt-4x8 font-main px-5x5;
+  }
+
+  .connect {
+    @apply flex justify-center items-center w-full max-w-[900px];
+  }
+
+  .top {
+    @apply whitespace-nowrap font-medium text-[14px] leading-3x7 text-lowOp tracking-[-0.02em];
+  }
+
+  .bottom {
+    @apply text-dark hidden cursor-pointer text-[14px] leading-4x4 font-medium underline tracking-[-0.02em];
+
+    &:hover {
+      @apply text-lowOp;
+    }
+  }
+
+  .res {
+    @apply block;
+  }
 }
 
 /* ------------------------------ Screen: 834px ----------------------------- */
@@ -26,6 +50,10 @@
   .header {
     @apply text-[96px] leading-5x19;
   }
+
+  .container {
+    @apply mt-4x16;
+  }
 }
 
 /* ----------------------------- Screen: 1920px ----------------------------- */
@@ -36,5 +64,21 @@
 
   .header {
     @apply text-[120px] leading-[120px] mt-[248px];
+  }
+
+  .container {
+    @apply mt-5x11;
+  }
+
+  .connect {
+    @apply justify-between;
+  }
+
+  .bottom {
+    @apply block;
+  }
+
+  .res {
+    @apply hidden;
   }
 }
