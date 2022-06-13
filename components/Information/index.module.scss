@@ -6,6 +6,10 @@
 
   .button {
     @apply bg-dark tracking-[-0.02em] font-medium rounded-lg text-light whitespace-nowrap text-[12px] leading-3x6 py-3x4 px-[19px];
+
+    &:hover {
+      @apply text-lightLowOp;
+    }
   }
 
   .question {
@@ -29,7 +33,11 @@
   }
 
   .link {
-    @apply font-medium text-dark tracking-[-0.02em] underline text-[12px] leading-3x6;
+    @apply font-medium cursor-pointer text-dark tracking-[-0.02em] underline text-[12px] leading-3x6;
+
+    &:hover {
+      @apply text-lowOp;
+    }
   }
 
   .blankForNow {
