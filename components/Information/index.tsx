@@ -10,8 +10,8 @@ const Information = () => {
         <b>UNRUGGED <span className={styles.italicized}>DAO</span>?</b>
       </h2>
       <p className={styles.purpose}>
-        <b className={styles.starter}>UnruggedDAO&apos;s purpose is simple:</b>{" "}
-        to help victims to some of the biggest cruptocurrency rug-pulls to get
+        <b className={styles.starter}>UnruggedDAO&apos;s purpose is simple:</b> to 
+        help victims to some of the biggest cruptocurrency rug-pulls to get
         some of their hard earned cash back. We aim to become pioneers in rug
         detection and prevention on Ethereum and compatible networks.
       </p>
