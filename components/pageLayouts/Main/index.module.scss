@@ -5,11 +5,18 @@
   }
 
   .main {
-    @apply bg-light rounded-xl font-main overflow-auto;
-    max-height: calc(100vh - 86px);
+    @apply bg-light rounded-xl font-main overflow-auto h-screen;
+    max-height: calc(100vh - 118px);
     scrollbar-width: none;
     &::-webkit-scrollbar {
       @apply hidden;
     }
+  }
+}
+
+/* ----------------------------- Screen: 834px ----------------------------- */
+@media screen and (min-width: 834px) {
+  .main {
+    max-height: calc(100vh - 86px);
   }
 }
