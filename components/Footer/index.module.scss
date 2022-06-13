@@ -23,10 +23,18 @@
 
   .button {
     @apply bg-light rounded-xl text-dark text-[18px] leading-3x9 tracking-[-0.02em] font-medium py-4x4 px-[57.5px];
+
+    &:hover {
+      @apply text-lowOp;
+    }
   }
 
   .discord {
-    @apply block text-light font-medium text-[18px] leading-3x9 tracking-[-0.02em] underline;
+    @apply block cursor-pointer text-light font-medium text-[18px] leading-3x9 tracking-[-0.02em] underline;
+
+    &:hover {
+      @apply text-lightLowOp;
+    }
   }
 
   .credit {
