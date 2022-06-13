@@ -1,0 +1,40 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .purpose {
+    @apply px-5x5 text-lowOp tracking-[-0.02em] text-[12px] leading-4x5 font-normal text-center mt-4x4;
+  }
+
+  .header {
+    @apply text-[60px] leading-4x15 tracking-[-0.03em] text-center mt-4x16;
+  }
+
+  .notItalicized {
+    @apply not-italic;
+  }
+
+  .hold {
+    @apply flex justify-center;
+  }
+}
+
+/* ------------------------------ Screen: 834px ----------------------------- */
+@media screen and (min-width: 834px) {
+  .purpose {
+    @apply p-0 text-[16px] leading-4x6 max-w-[780px] mt-4x6;
+  }
+
+  .header {
+    @apply text-[96px] leading-5x19;
+  }
+}
+
+/* ----------------------------- Screen: 1920px ----------------------------- */
+@media screen and (min-width: 1920px) {
+  .purpose {
+    @apply max-w-[1000px];
+  }
+
+  .header {
+    @apply text-[120px] leading-[120px] mt-[248px];
+  }
+}
