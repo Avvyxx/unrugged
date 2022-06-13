@@ -7,12 +7,32 @@
       @apply not-italic;
     }
   }
+
+  .container {
+    @apply flex flex-col items-center mt-4x9 font-main px-5x5;
+  }
+
+  .top {
+    @apply whitespace-nowrap font-medium text-[14px] leading-3x7 text-lowOp tracking-[-0.02em];
+  }
+
+  .bottom {
+    @apply text-dark font-ubuntu cursor-pointer text-[16px] leading-[18.38px] font-medium underline tracking-[-0.02em];
+
+    &:hover {
+      @apply text-lowOp;
+    }
+  }
 }
 
 /* ------------------------------ Screen: 834px ----------------------------- */
 @media screen and (min-width: 834px) {
   .goal {
     @apply text-[72px] leading-[72px];
+  }
+
+  .container {
+    @apply mt-[31px];
   }
 }
 
