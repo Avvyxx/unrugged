@@ -3,6 +3,7 @@ import Address from "../Address";
 import styles from "./index.module.scss";
 
 const Scan = () => {
+  // prettier-ignore
   return (
     <>
       {/* prettier-ignore */}
