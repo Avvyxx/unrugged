@@ -18,12 +18,6 @@ module.exports = {
       green: "#31C324",
       yellow: "#C39724",
       red: "#C32424",
-      greenGrad:
-        "linear-gradient(90.42deg, rgba(49, 195, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%), #DDDDD8",
-      yellowGrad:
-        "linear-gradient(90.42deg, rgba(195, 151, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%), #DDDDD8",
-      redGrad:
-        "linear-gradient(90.42deg, rgba(195, 36, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%), #DDDDD8;",
       offWhite: "#E8E8E3",
       placeholder: "#D9D9D9",
     },
@@ -161,6 +155,14 @@ module.exports = {
         "5x18": "90px",
         "5x19": "95px",
         "5x20": "100px",
+      },
+      backgroundImage: {
+        greenGrad:
+          "linear-gradient(90.42deg, rgba(49, 195, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%)",
+        yellowGrad:
+          "linear-gradient(90.42deg, rgba(195, 151, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%)",
+        redGrad:
+          "linear-gradient(90.42deg, rgba(195, 36, 36, 0.1) -1.63%, rgba(222, 222, 217, 0.1) 42.77%);",
       },
     },
   },
