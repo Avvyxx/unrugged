@@ -1,0 +1,56 @@
+/* --------------------------------- Default -------------------------------- */
+@media screen and (min-width: 0px) {
+  .container {
+    @apply flex flex-col gap-3x4 px-4x6 pt-4x4 pb-3x10 bg-greenGrad bg-[#DDDDD8] rounded-xl font-main;
+  }
+
+  .top {
+    @apply flex flex-col gap-4x2 items-start;
+  }
+
+  .succ {
+    @apply flex gap-4x8 items-center;
+  }
+
+  .text {
+    @apply text-[14px] leading-3x7 tracking-[-0.02em] text-lowOp font-medium;
+  }
+
+  .data {
+    @apply font-bold text-green italic;
+  }
+
+  .bought {
+    @apply font-medium text-[12px] leading-3x6 tracking-[-0.02em] text-lowOp;
+  }
+
+  .foo {
+    @apply flex items-center gap-4x4;
+  }
+
+  .svg {
+    @apply flex items-center gap-4x1;
+  }
+}
+
+/* ------------------------------ Screen: 834px ----------------------------- */
+@media screen and (min-width: 834px) {
+  .container {
+    @apply gap-3x5 pb-4x4;
+  }
+
+  .top {
+    @apply flex-row items-center justify-between;
+  }
+}
+
+/* ----------------------------- Screen: 1920px ----------------------------- */
+@media screen and (min-width: 1920px) {
+  .container {
+    @apply flex-row gap-[82px] py-[14px] px-5x5 items-center;
+  }
+
+  .top {
+    @apply gap-3x10;
+  }
+}
