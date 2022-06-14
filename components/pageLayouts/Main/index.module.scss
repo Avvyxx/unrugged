@@ -5,13 +5,61 @@
   }
 
   .main {
-    @apply bg-light rounded-[36px] font-main overflow-auto h-screen;
+    @apply bg-light rounded-[36px] font-main overflow-scroll h-screen relative;
     max-height: calc(100vh - 118px);
     scrollbar-width: none;
 
     &::-webkit-scrollbar {
       @apply hidden;
     }
+
+    * {
+      @apply relative;
+    }
+  }
+
+  .dot {
+    @apply absolute w-4x2 h-4x2 bg-dark hidden;
+  }
+
+  .first {
+    @apply top-[142px] left-[265px];
+  }
+
+  .second {
+    @apply top-[196px] right-[205px];
+  }
+
+  .third {
+    @apply top-[373px] left-[107px];
+  }
+
+  .fourth {
+    @apply top-[559px] right-[111px];
+  }
+
+  .fifth {
+    @apply top-[1021px] right-[150px];
+  }
+
+  .sixth {
+    @apply top-[1098px] left-[419px];
+  }
+
+  .seventh {
+    @apply top-[1363px] right-[368px];
+  }
+
+  .eighth {
+    @apply top-[1717px] left-[167px];
+  }
+
+  .ninth {
+    @apply top-[2191px] right-[122px];
+  }
+
+  .tenth {
+    @apply top-[2482px] left-[700px];
   }
 }
 
@@ -19,5 +67,9 @@
 @media screen and (min-width: 834px) {
   .main {
     max-height: calc(100vh - 86px);
+  }
+
+  .dot {
+    @apply block;
   }
 }
