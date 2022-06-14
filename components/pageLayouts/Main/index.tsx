@@ -19,7 +19,7 @@ const Main: FC = ({ children }) => {
           <div className={clsx(styles.dot, styles.second)}></div>
           <div className={clsx(styles.dot, styles.third)}></div>
           <div className={clsx(styles.dot, styles.fourth)}></div>
-          {route !== "/scanner" && (
+          {route === "/" && (
             <>
               <div className={clsx(styles.dot, styles.fifth)}></div>
               <div className={clsx(styles.dot, styles.sixth)}></div>

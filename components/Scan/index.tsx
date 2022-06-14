@@ -6,12 +6,10 @@ const Scan = () => {
   // prettier-ignore
   return (
     <>
-      {/* prettier-ignore */}
       <h1 className={styles.header}>
         <em><b className={styles.notItalicized}>TOKEN</b> SCANNER</em>
       </h1>
       <div className={styles.hold}>
-        {/* prettier-ignore */}
         <p className={styles.purpose}>
           <b className={styles.starter}>UnruggedDAO&apos;s purpose is simple:</b> to 
           help victims to some of the biggest cryptocurrency rug-pulls to get
