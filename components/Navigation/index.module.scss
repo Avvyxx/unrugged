@@ -13,7 +13,7 @@
   }
 
   .link {
-    @apply font-medium text-[12px] leading-3x6;
+    @apply font-medium text-[12px] leading-3x6 duration-200;
 
     &:hover {
       @apply opacity-[0.64];
@@ -21,7 +21,7 @@
   }
 
   .launch {
-    @apply font-bold text-[16px] leading-3x8;
+    @apply font-bold text-[16px] leading-3x8 duration-200;
 
     &:hover {
       @apply opacity-[0.64];

@@ -17,7 +17,7 @@
   }
 
   .bottom {
-    @apply text-dark font-ubuntu cursor-pointer text-[16px] leading-[18.38px] font-medium underline tracking-[-0.02em];
+    @apply text-dark duration-200 cursor-pointer text-[16px] leading-[18.38px] font-medium underline tracking-[-0.02em];
 
     &:hover {
       @apply text-lowOp;

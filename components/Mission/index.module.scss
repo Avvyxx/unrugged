@@ -9,7 +9,7 @@
   }
 
   .button {
-    @apply text-light font-medium self-start tracking-[-0.02em] bg-dark rounded-lg mt-3x8 text-[12px] leading-3x6 py-3x4 px-[19px];
+    @apply text-light font-medium duration-200 self-start tracking-[-0.02em] bg-dark rounded-lg mt-3x8 text-[12px] leading-3x6 py-3x4 px-[19px];
 
     &:hover {
       @apply text-lightLowOp;

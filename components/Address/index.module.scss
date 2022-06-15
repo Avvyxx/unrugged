@@ -13,7 +13,7 @@
   }
 
   .button {
-    @apply whitespace-nowrap bg-dark rounded-lg text-light font-medium text-[16px] leading-4x6 tracking-[-0.02em] py-[13px] text-center;
+    @apply duration-200 whitespace-nowrap bg-dark rounded-lg text-light font-medium text-[16px] leading-4x6 tracking-[-0.02em] py-[13px] text-center;
 
     &:hover {
       @apply text-lightLowOp;
