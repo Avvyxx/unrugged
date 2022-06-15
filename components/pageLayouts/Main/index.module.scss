@@ -4,6 +4,10 @@
     @apply bg-dark px-5x1 font-main;
   }
 
+  .prevent {
+    @apply overflow-hidden max-h-screen;
+  }
+
   .main {
     @apply bg-light rounded-[36px] font-main overflow-scroll h-screen relative;
     max-height: calc(100vh - 118px);
