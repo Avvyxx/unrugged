@@ -32,18 +32,18 @@ const Navigation = () => {
         </Link>
       </div>
       <div className={styles.center}>
-        <Link 
-          href={"/about"} 
-          passHref
+        <a 
+          className={styles.link} 
+          href="#about"
         >
-          <a className={styles.link}>ABOUT US</a>
-        </Link>
-        <Link 
-          href={"/mission"} 
-          passHref
+          ABOUT US
+        </a>
+        <a 
+          className={styles.link} 
+          href="#mission"
         >
-          <a className={styles.link}>OUR MISSION</a>
-        </Link>
+          OUR MISSION
+        </a>
         <Link 
           href={"/claim"} 
           passHref
