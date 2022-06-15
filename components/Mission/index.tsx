@@ -3,7 +3,7 @@ import styles from "./index.module.scss";
 const Mission = () => {
   // prettier-ignore
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='mission'>
       <div className={styles.center}>
         <div className={styles.left}>
           <h2 className={styles.header}>
