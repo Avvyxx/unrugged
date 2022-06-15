@@ -7,11 +7,6 @@
   .main {
     @apply bg-light rounded-[36px] font-main overflow-scroll h-screen relative;
     max-height: calc(100vh - 118px);
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      @apply hidden;
-    }
 
     * {
       @apply relative;
