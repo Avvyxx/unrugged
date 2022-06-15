@@ -1,7 +1,7 @@
 /* --------------------------------- Default -------------------------------- */
 @media screen and (min-width: 0px) {
   .container {
-    @apply bg-dark font-main text-light flex flex-col justify-between items-center pt-[26px] pb-4x5 px-4x6;
+    @apply hidden bg-dark font-main text-light flex-col justify-between items-center pt-[26px] pb-4x5 px-4x6;
   }
 
   .unrugged {
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 834px) {
   .container {
-    @apply flex-row;
+    @apply flex-row flex;
   }
 
   .center {
