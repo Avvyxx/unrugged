@@ -3,7 +3,10 @@ import styles from "./index.module.scss";
 const Information = () => {
   // prettier-ignore
   return (
-    <div className={styles.container} id='about'>
+    <div 
+      className={styles.container} 
+      id='about'
+    >
       <h2 className={styles.question}>
         WHAT <span className={styles.italicized}>IS</span>
         <br />
