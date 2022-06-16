@@ -85,10 +85,10 @@
   }
 
   .token {
-    @apply w-full flex justify-center hidden;
+    @apply w-full flex justify-center;
 
     .main {
-      @apply flex justify-between pt-4x6 pb-4x8 px-4x9;
+      @apply justify-between pt-4x6 pb-4x8 px-4x9 hidden;
     }
 
     .title {
@@ -98,6 +98,50 @@
 
   .con {
     @apply flex flex-col gap-4x4;
+  }
+
+  .two {
+    @apply flex gap-4x4 mt-4x4 max-w-[1300px] w-full;
+
+    .main {
+      @apply hidden;
+    }
+  }
+
+  .legend {
+    @apply w-full flex flex-col gap-4x4 mb-4x15;
+  }
+
+  .leg {
+    @apply flex items-center gap-5x2;
+  }
+
+  .color {
+    @apply w-4x4 h-4x4 bg-dark;
+
+    &.green {
+      @apply bg-green;
+    }
+
+    &.dark {
+      @apply bg-dark;
+    }
+
+    &.red {
+      @apply bg-red;
+    }
+  }
+
+  .pieCon {
+    @apply w-[300px] h-[300px];
+  }
+
+  .chart {
+    @apply bg-offWhite pb-5x14 last:hidden rounded-xl pt-4x6 px-4x8 w-full flex flex-col items-center;
+
+    .title {
+      @apply w-full;
+    }
   }
 }
 
@@ -141,50 +185,20 @@
 
   .token {
     @apply flex flex-col items-center;
+
+    .main {
+      @apply flex;
+    }
   }
 
   .chart {
-    @apply bg-offWhite rounded-xl pt-4x6 px-4x8 w-full flex flex-col items-center;
-
-    .title {
-      @apply w-full;
-    }
+    @apply last:flex;
   }
 
   .two {
-    @apply flex gap-4x4 mt-4x4 max-w-[1300px] w-full;
-
     .main {
       @apply hidden;
     }
-  }
-
-  .legend {
-    @apply w-full flex flex-col gap-4x4 mb-4x15;
-  }
-
-  .leg {
-    @apply flex items-center gap-5x2;
-  }
-
-  .color {
-    @apply w-4x4 h-4x4 bg-dark;
-
-    &.green {
-      @apply bg-green;
-    }
-
-    &.dark {
-      @apply bg-dark;
-    }
-
-    &.red {
-      @apply bg-red;
-    }
-  }
-
-  .pieCon {
-    @apply w-[300px] h-[300px];
   }
 }
 
