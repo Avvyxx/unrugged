@@ -25,7 +25,7 @@
   }
 
   .top {
-    @apply whitespace-nowrap font-medium text-[14px] leading-3x7 text-lowOp tracking-[-0.02em];
+    @apply whitespace-nowrap font-medium text-[9px] leading-3x7 text-lowOp tracking-[-0.02em];
   }
 
   .bottom {
@@ -38,6 +38,13 @@
 
   .res {
     @apply block;
+  }
+}
+
+/* ------------------------------ Screen: 400px ----------------------------- */
+@media screen and (min-width: 400px) {
+  .top {
+    @apply text-[14px];
   }
 }
 
