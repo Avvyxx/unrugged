@@ -1,7 +1,10 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import styles from "./index.module.scss";
 
 const Navigation = () => {
+  const { route } = useRouter();
+
   // prettier-ignore
   return (
     <nav className={styles.container}>
@@ -31,6 +34,7 @@ const Navigation = () => {
           <a className={styles.launch}>Launch app</a>
         </Link>
       </div>
+      { route === '/' && 
       <div className={styles.center}>
         <a 
           className={styles.link} 
@@ -50,7 +54,7 @@ const Navigation = () => {
         >
           <a className={styles.link}>CLAIM DAO</a>
         </Link>
-      </div>
+      </div> }
       <div className={styles.mobile}>
         <Link 
           href={"/scanner"} 

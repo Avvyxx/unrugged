@@ -9,7 +9,7 @@
   }
 
   .main {
-    @apply bg-light rounded-[36px] font-main overflow-scroll relative h-screen;
+    @apply bg-light rounded-[36px] font-main overflow-scroll relative;
 
     * {
       @apply relative;
@@ -61,10 +61,14 @@
   }
 }
 
-/* ----------------------------- Screen: 834px ----------------------------- */
-@media screen and (min-width: 834px) {
+/* ----------------------------- Screen: 720px ----------------------------- */
+@media screen and (min-width: 720px) {
   .main {
-    max-height: calc(100vh - 86px);
+    @apply h-full;
+  }
+
+  .full {
+    @apply h-screen;
   }
 
   .dot {

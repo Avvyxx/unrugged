@@ -16,7 +16,7 @@ const Main: FC = ({ children }) => {
         <Navigation />
         {/* prettier-ignore */}
         <main 
-          className={styles.main} 
+          className={clsx(styles.main, route === '/scanner' && styles.full)} 
         >
           <div className={clsx(styles.dot, styles.first)}></div>
           <div className={clsx(styles.dot, styles.second)}></div>
