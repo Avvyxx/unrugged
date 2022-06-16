@@ -17,7 +17,7 @@
   }
 
   .number {
-    @apply font-bold text-[80px] leading-[100px] text-dark tracking-[-0.01em] top-[41px];
+    @apply font-bold text-[80px] leading-[100px] text-dark tracking-[-0.01em];
   }
 }
 
@@ -36,7 +36,7 @@
   }
 
   .number {
-    @apply absolute leading-4x20;
+    @apply absolute leading-4x20 top-[41px];
   }
 }
 
