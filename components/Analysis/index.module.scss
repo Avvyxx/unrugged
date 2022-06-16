@@ -101,7 +101,7 @@
   }
 
   .two {
-    @apply flex gap-4x4 mt-4x4 max-w-[1300px] w-full;
+    @apply flex gap-4x4  max-w-[1300px] w-full;
 
     .main {
       @apply hidden;
@@ -196,6 +196,8 @@
   }
 
   .two {
+    @apply mt-4x4;
+
     .main {
       @apply hidden;
     }
