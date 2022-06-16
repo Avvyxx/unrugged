@@ -9,7 +9,7 @@
   }
 
   .main {
-    @apply bg-light rounded-[36px] font-main overflow-scroll relative;
+    @apply bg-light rounded-[36px] font-main overflow-scroll relative h-screen;
 
     * {
       @apply relative;
@@ -64,7 +64,6 @@
 /* ----------------------------- Screen: 834px ----------------------------- */
 @media screen and (min-width: 834px) {
   .main {
-    @apply h-screen;
     max-height: calc(100vh - 86px);
   }
 
